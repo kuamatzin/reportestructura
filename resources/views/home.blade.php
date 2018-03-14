@@ -29,6 +29,22 @@
 				<header class="major">
 					<h2>La Información esta dividida en<br />
 					15 municipios </h2>
+			
+					<select name="" id="mes" class="form-control" required="required">
+						<option value="1">Enero</option>
+						<option value="2">Febrero</option>
+						<option value="3">Marzo</option>
+						<option value="4">Abril</option>
+						<option value="5">Mayo</option>
+						<option value="6">Junio</option>
+						<option value="7">Julio</option>
+						<option value="8">Agosto</option>
+						<option value="9">Septiembre</option>
+						<option value="10">Octubre</option>
+						<option value="11">Noviembre</option>
+						<option value="12">Diciembre</option>
+					</select>
+
 				</header>
 				<ul class="icons major">
 					<li><span class="icon fa-camera-retro"><span class="label">Shoot</span></span></li>
@@ -44,9 +60,9 @@
 						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
 						<div class="content">
 							<h3>01 Huauchinango</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->huauchinango(2)->count()}}<p>
-							No- de Personas:  {{$stats->huauchinango(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->huauchinango($month)->count()}}<p>
+							No- de Personas:  {{$stats->huauchinango($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -54,9 +70,9 @@
 						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
 						<div class="content">
 							<h3>02 Zacatlán</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->zacatlan(2)->count()}}<p>
-							No- de Personas:  {{$stats->zacatlan(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->zacatlan($month)->count()}}<p>
+							No- de Personas:  {{$stats->zacatlan($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 						</div>
 					</section>
@@ -64,9 +80,9 @@
 						<div class="image"><img src="images/pic03.jpg" alt="" /></div>
 						<div class="content">
 							<h3>03 Teziutlán</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->teziutlan(2)->count()}}<p>
-							No- de Personas:  {{$stats->teziutlan(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->teziutlan($month)->count()}}<p>
+							No- de Personas:  {{$stats->teziutlan($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -74,9 +90,9 @@
 						<div class="image"><img src="images/pic04.jpg" alt="" /></div>
 						<div class="content">
 							<h3>04 Ajalpan</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->ajalpan(2)->count()}}<p>
-							No- de Personas:  {{$stats->ajalpan(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->ajalpan($month)->count()}}<p>
+							No- de Personas:  {{$stats->ajalpan($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -84,9 +100,9 @@
 						<div class="image"><img src="images/pic05.jpg" alt="" /></div>
 						<div class="content">
 							<h3>05 San Martín Tezmelucán</h3>
-						<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->sanmartin(2)->count()}}<p>
-							No- de Personas:  {{$stats->sanmartin(2)->sum('assistans')}}<p>
+						<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->sanmartin($month)->count()}}<p>
+							No- de Personas:  {{$stats->sanmartin($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -94,9 +110,9 @@
 						<div class="image"><img src="images/pic06.jpg" alt="" /></div>
 						<div class="content">
 							<h3>06 Puebla</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->puebla(2)->count()}}<p>
-							No- de Personas:  {{$stats->puebla(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
+							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -104,9 +120,9 @@
 						<div class="image"><img src="images/pic07.jpg" alt="" /></div>
 						<div class="content">
 							<h3>07 Tepeaca</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->tepeaca(2)->count()}}<p>
-							No- de Personas:  {{$stats->tepeaca(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->tepeaca($month)->count()}}<p>
+							No- de Personas:  {{$stats->tepeaca($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -114,9 +130,9 @@
 						<div class="image"><img src="images/pic08.jpg" alt="" /></div>
 						<div class="content">
 							<h3>08 Chalchicomula de Sesma</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->chalchicomula(2)->count()}}<p>
-							No- de Personas:  {{$stats->chalchicomula(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->chalchicomula($month)->count()}}<p>
+							No- de Personas:  {{$stats->chalchicomula($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -124,9 +140,9 @@
 						<div class="image"><img src="images/pic09.jpg" alt="" /></div>
 						<div class="content">
 							<h3>09 Puebla</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->puebla(2)->count()}}<p>
-							No- de Personas:  {{$stats->puebla(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
+							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -134,9 +150,9 @@
 						<div class="image"><img src="images/pic10.jpg" alt="" /></div>
 						<div class="content">
 							<h3>10 Cholula</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->cholula(2)->count()}}<p>
-							No- de Personas:  {{$stats->cholula(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->cholula($month)->count()}}<p>
+							No- de Personas:  {{$stats->cholula($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -144,9 +160,9 @@
 						<div class="image"><img src="images/pic11.jpg" alt="" /></div>
 						<div class="content">
 							<h3>11 Puebla</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->puebla(2)->count()}}<p>
-							No- de Personas:  {{$stats->puebla(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
+							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -154,9 +170,9 @@
 						<div class="image"><img src="images/pic12.jpg" alt="" /></div>
 						<div class="content">
 							<h3>12 Puebla</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->puebla(2)->count()}}<p>
-							No- de Personas:  {{$stats->puebla(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
+							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -164,9 +180,9 @@
 						<div class="image"><img src="images/pic13.jpg" alt="" /></div>
 						<div class="content">
 							<h3>13 Atlixco</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->atlixco(2)->count()}}<p>
-							No- de Personas:  {{$stats->atlixco(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->atlixco($month)->count()}}<p>
+							No- de Personas:  {{$stats->atlixco($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 							</div>
 					</section>
@@ -174,9 +190,9 @@
 						<div class="image"><img src="images/pic14.jpg" alt="" /></div>
 						<div class="content">
 							<h3>14 Acatlán</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->acatlan(2)->count()}}<p>
-							No- de Personas:  {{$stats->acatlan(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->acatlan($month)->count()}}<p>
+							No- de Personas:  {{$stats->acatlan($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 						</div>
 					</section>
@@ -184,9 +200,9 @@
 						<div class="image"><img src="images/pic15.jpg" alt="" /></div>
 						<div class="content">
 							<h3>15 Tehuacán</h3>
-							<p>Fecha: Febrero</h3>
-							<p>No- de Reuniones: {{$stats->tehuacan(2)->count()}}<p>
-							No- de Personas:  {{$stats->tehuacan(2)->sum('assistans')}}<p>
+							<p>Fecha: {{$month_text}}</h3>
+							<p>No- de Reuniones: {{$stats->tehuacan($month)->count()}}<p>
+							No- de Personas:  {{$stats->tehuacan($month)->sum('assistans')}}<p>
 							Lugar de la reunion:</p>
 						</div>
 					</section>
@@ -194,7 +210,7 @@
 						<ul class="icons labeled">
 							<li><span class="icon fa-level-up"><span class="label">2 lugares</span></span></li>
 							<li><span class="icon fa-bar-chart"><span class="label">200 personas</span></span></li>
-							<li><span class="icon fa-calendar"><span class="label">Febrero</span></span></li>
+							<li><span class="icon fa-calendar"><span class="label">{{$month_text}}</span></span></li>
 							</li>
 						</ul>
 					</section>
@@ -545,12 +561,18 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</footer>
 
 		<!-- Scripts -->
-			<script src="/js/jquery.min.js"></script>
+			<script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
 			<script src="/js/jquery.scrolly.min.js"></script>
 			<script src="/js/skel.min.js"></script>
 			<script src="/js/util.js"></script>
 			<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
 			<script src="/js/main.js"></script>
-
+			<script>
+			$('#mes').val({{$month}})
+			$('#mes').change(function(value){
+				var mes = $('#mes').val()
+				window.location = '/home?month=' + mes
+			})
+			</script>
 	</body>
 </html>

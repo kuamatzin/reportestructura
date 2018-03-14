@@ -3,10 +3,27 @@
 namespace App\Http\Controllers;
 
 use App\Meeting;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 class HomeController extends Controller
 {
+
+    protected $months = [
+        'Enero',
+        'Febrero',
+        'Marzo',
+        'Abril',
+        'Mayo',
+        'Junio',
+        'Julio',
+        'Agosto',
+        'Septiembre',
+        'Octubre',
+        'Noviembre',
+        'Diciembre'
+    ];
     /**
      * Create a new controller instance.
      *
@@ -25,6 +42,10 @@ class HomeController extends Controller
     public function index()
     {
         $stats = new Meeting();
-        return view('home', compact('stats'));
+        $month = Input::get('month');
+        $month = $month ? $month : Carbon::now()->month;
+        $month_text = $this->months[$month - 1];
+
+        return view('home', compact('stats', 'month', 'month_text'));
     }
 }
