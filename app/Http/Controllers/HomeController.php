@@ -48,4 +48,12 @@ class HomeController extends Controller
 
         return view('home', compact('stats', 'month', 'month_text'));
     }
+
+
+    public function stats($municipality, $month)
+    {
+        $stats = Meeting::where('municipality', $municipality)->whereMonth('date', $month)->get();
+        
+        return view('meetings.stats', compact('stats', 'month', 'municipality'));
+    }
 }

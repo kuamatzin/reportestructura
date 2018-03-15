@@ -59,7 +59,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
 						<div class="content">
-							<h3>Huauchinango</h3>
+							<a href="/stats/0/{{$month}}">
+								<h3>Huauchinango</h3>
+							</a>
 							<h4>Ricardo Urzua Rivera</h4>
 							<h4>Tel: 5554058005</h4>
 							<p>Fecha: {{$month_text}}</h3>
