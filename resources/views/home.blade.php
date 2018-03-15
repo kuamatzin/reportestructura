@@ -253,8 +253,8 @@
 					</section>
 					<section class="special">
 						<ul class="icons labeled">
-							<li><span class="icon fa-level-up"><span class="label">2 lugares</span></span></li>
-							<li><span class="icon fa-bar-chart"><span class="label">200 personas</span></span></li>
+							<li><span class="icon fa-level-up"><span class="label">No- de Reuniones: {{$stats->total_meetings($month)->count()}}</span></span></li>
+							<li><span class="icon fa-bar-chart"><span class="label">No- de Personas: {{$stats->total_meetings($month)->sum('assistans')}}</span></span></li>
 							<li><span class="icon fa-calendar"><span class="label">{{$month_text}}</span></span></li>
 							</li>
 						</ul>

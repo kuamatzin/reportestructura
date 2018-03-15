@@ -114,4 +114,9 @@ class Meeting extends Model
         return $month ? $this->where('municipality', 14)->whereMonth('date', $month) : $this->where('municipality', 14);
     }
 
+    public function total_meetings($month = null)
+    {
+        return $month ? $this->whereMonth('date', $month) : $this;
+    }
+
 }
