@@ -59,151 +59,166 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
 						<div class="content">
-							<h3>01 Huauchinango</h3>
+							<h3>Huauchinango</h3>
+							<h4>Ricardo Urzua Rivera</h4>
+							<h4>Tel: 5554058005</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->huauchinango($month)->count()}}<p>
-							No- de Personas:  {{$stats->huauchinango($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->huauchinango($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
 						<div class="content">
-							<h3>02 Zacatlán</h3>
+							<h3>Zacatlán</h3>
+							<h4>Enrique Rivera Reyes</h4>
+							<h4>Tel: 2222142445</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->zacatlan($month)->count()}}<p>
-							No- de Personas:  {{$stats->zacatlan($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->zacatlan($month)->sum('assistans')}}
 						</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic03.jpg" alt="" /></div>
 						<div class="content">
-							<h3>03 Teziutlán</h3>
+							<h3>Teziutlán</h3>
+							<h4>Karla Victoria Martínez Gallegos</h4>
+							<h4>Tel: 2311131439</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->teziutlan($month)->count()}}<p>
-							No- de Personas:  {{$stats->teziutlan($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->teziutlan($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic04.jpg" alt="" /></div>
 						<div class="content">
-							<h3>04 Ajalpan</h3>
+							<h3>Ajalpan</h3>
+							<h4>Nestor Camarillo Medina</h4>
+							<h4>Tel: 2227107014</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->ajalpan($month)->count()}}<p>
-							No- de Personas:  {{$stats->ajalpan($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->ajalpan($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic05.jpg" alt="" /></div>
 						<div class="content">
-							<h3>05 San Martín Tezmelucán</h3>
-						<p>Fecha: {{$month_text}}</h3>
+							<h3>San Martín Texmelucan</h3>
+							<h4>Janet Graciela González</h4>
+							<h4>Tel: 2221920611</h4>
+							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->sanmartin($month)->count()}}<p>
-							No- de Personas:  {{$stats->sanmartin($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->sanmartin($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic06.jpg" alt="" /></div>
 						<div class="content">
-							<h3>06 Puebla</h3>
+							<h3>Puebla 6</h3>
+							<h4>Soraya Cordova Moran</h4>
+							<h4>Tel: 2225195120</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
-							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic07.jpg" alt="" /></div>
 						<div class="content">
-							<h3>07 Tepeaca</h3>
+							<h3>Tepeaca</h3>
+							<h4>Humberto Aguilar Viveros</h4>
+							<h4>Tel: 2225057900</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->tepeaca($month)->count()}}<p>
-							No- de Personas:  {{$stats->tepeaca($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->tepeaca($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic08.jpg" alt="" /></div>
 						<div class="content">
-							<h3>08 Chalchicomula de Sesma</h3>
+							<h3>Chalchicomula de Sesma</h3>
+							<h4>Juan Navarro Rodriguez</h4>
+							<h4>Tel: 2454504361</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->chalchicomula($month)->count()}}<p>
-							No- de Personas:  {{$stats->chalchicomula($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->chalchicomula($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic09.jpg" alt="" /></div>
 						<div class="content">
-							<h3>09 Puebla</h3>
+							<h3>Puebla 9</h3>
+							<h4>Lidia Felisa López Aguirre</h4>
+							<h4>Tel: 2222121831</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
-							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic10.jpg" alt="" /></div>
 						<div class="content">
-							<h3>10 Cholula</h3>
+							<h3>Cholula</h3>
+							<h4>Vanessa Barahona</h4>
+							<h4>Tel: 2221602468</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->cholula($month)->count()}}<p>
-							No- de Personas:  {{$stats->cholula($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->cholula($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic11.jpg" alt="" /></div>
 						<div class="content">
-							<h3>11 Puebla</h3>
+							<h3>Puebla 11</h3>
+							<h4>Ramón Fernández Solana</h4>
+							<h4>Tel: 2222999337</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
-							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic12.jpg" alt="" /></div>
 						<div class="content">
-							<h3>12 Puebla</h3>
+							<h3>Puebla 12</h3>
+							<h4>Karina Romero Alcalá</h4>
+							<h4>Tel: 2223409117</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
-							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic13.jpg" alt="" /></div>
 						<div class="content">
-							<h3>13 Atlixco</h3>
+							<h3>Atlixco</h3>
+							<h4>Juan Manuel Vega Rayet</h4>
+							<h4>Tel: 2434350087</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->atlixco($month)->count()}}<p>
-							No- de Personas:  {{$stats->atlixco($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->atlixco($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic14.jpg" alt="" /></div>
 						<div class="content">
-							<h3>14 Acatlán</h3>
+							<h3>Acatlán</h3>
+							<h4>Maritza Marín Marcelo</h4>
+							<h4>Tel: 2223232143</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->acatlan($month)->count()}}<p>
-							No- de Personas:  {{$stats->acatlan($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->acatlan($month)->sum('assistans')}}
 						</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/pic15.jpg" alt="" /></div>
 						<div class="content">
-							<h3>15 Tehuacán</h3>
+							<h3>Tehuacán</h3>
+							<h4>Lisandro Campos Cordova</h4>
+							<h4>Tel: 2241030269</h4>
 							<p>Fecha: {{$month_text}}</h3>
 							<p>No- de Reuniones: {{$stats->tehuacan($month)->count()}}<p>
-							No- de Personas:  {{$stats->tehuacan($month)->sum('assistans')}}<p>
-							Lugar de la reunion:</p>
+							No- de Personas:  {{$stats->tehuacan($month)->sum('assistans')}}
 						</div>
 					</section>
 					<section class="special">
