@@ -72,7 +72,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/1/{{$month}}">
 							<h3>Zacatlán</h3>
+						</a>
 							<h4>Enrique Rivera Reyes</h4>
 							<h4>Tel: 2222142445</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -83,7 +85,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic03.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/2/{{$month}}">
 							<h3>Teziutlán</h3>
+						</a>
 							<h4>Karla Victoria Martínez Gallegos</h4>
 							<h4>Tel: 2311131439</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -94,7 +98,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic04.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/3/{{$month}}">
 							<h3>Ajalpan</h3>
+						</a>
 							<h4>Nestor Camarillo Medina</h4>
 							<h4>Tel: 2227107014</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -105,7 +111,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic05.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/4/{{$month}}">
 							<h3>San Martín Texmelucan</h3>
+						</a>
 							<h4>Janet Graciela González</h4>
 							<h4>Tel: 2221920611</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -116,7 +124,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic06.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/5/{{$month}}">
 							<h3>Puebla 6</h3>
+						</a>
 							<h4>Soraya Cordova Moran</h4>
 							<h4>Tel: 2225195120</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -127,7 +137,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic07.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/6/{{$month}}">
 							<h3>Tepeaca</h3>
+						</a>
 							<h4>Humberto Aguilar Viveros</h4>
 							<h4>Tel: 2225057900</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -138,7 +150,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic08.jpg" alt="" /></div>
 						<div class="content">
-							<h3>Chalchicomula de Sesma</h3>
+							<a href="/stats/7/{{$month}}">
+							<h3>Chalchicomula de Sesma</h3
+							</a>>
 							<h4>Juan Navarro Rodriguez</h4>
 							<h4>Tel: 2454504361</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -149,7 +163,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic09.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/8/{{$month}}">
 							<h3>Puebla 9</h3>
+						</a>
 							<h4>Lidia Felisa López Aguirre</h4>
 							<h4>Tel: 2222121831</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -160,7 +176,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic10.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/9/{{$month}}">
 							<h3>Cholula</h3>
+						</a>
 							<h4>Vanessa Barahona</h4>
 							<h4>Tel: 2221602468</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -171,7 +189,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic11.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/10/{{$month}}">
 							<h3>Puebla 11</h3>
+						</a>
 							<h4>Ramón Fernández Solana</h4>
 							<h4>Tel: 2222999337</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -182,7 +202,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic12.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/11/{{$month}}">
 							<h3>Puebla 12</h3>
+						</a>
 							<h4>Karina Romero Alcalá</h4>
 							<h4>Tel: 2223409117</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -193,7 +215,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic13.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/12/{{$month}}">
 							<h3>Atlixco</h3>
+						</a>
 							<h4>Juan Manuel Vega Rayet</h4>
 							<h4>Tel: 2434350087</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -204,7 +228,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic14.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/13/{{$month}}">
 							<h3>Acatlán</h3>
+						</a>
 							<h4>Maritza Marín Marcelo</h4>
 							<h4>Tel: 2223232143</h4>
 							<p>Fecha: {{$month_text}}</h3>
@@ -215,7 +241,9 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/pic15.jpg" alt="" /></div>
 						<div class="content">
+							<a href="/stats/14/{{$month}}">
 							<h3>Tehuacán</h3>
+						</a>
 							<h4>Lisandro Campos Cordova</h4>
 							<h4>Tel: 2241030269</h4>
 							<p>Fecha: {{$month_text}}</h3>
