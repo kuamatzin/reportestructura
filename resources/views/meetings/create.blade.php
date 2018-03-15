@@ -9,7 +9,7 @@
 
                 <div class="form-group{{ $errors->has('municipality') ? ' has-error' : '' }}">
                     {!! Form::label('municipality', 'Municipio') !!}
-                    {!! Form::select('municipality', [0 => 'Huauchinango', 1 => 'Zacatlán', 2 => 'Teziutlán', 3 => 'Ajalpan', 4 => 'San Martín Tezmelucán', 5 => 'Puebla', 6 => 'Tepeaca', 7 => 'Chalchicomula de Sesma', 8 => 'Cholula', 9 => 'Atlixco', 10 => 'Acatlán', 11 => 'Tehuacán'], null, ['id' => 'municipality', 'class' => 'form-control', 'required' => 'required']) !!}
+                    {!! Form::select('municipality', [0 => 'Huauchinango', 1 => 'Zacatlán', 2 => 'Teziutlán', 3 => 'Ajalpan', 4 => 'San Martín Tezmelucán', 5 => 'Puebla 6', 6 => 'Tepeaca', 7 => 'Chalchicomula de Sesma', 8 => 'Cholula', 9 => 'Atlixco', 10 => 'Acatlán', 11 => 'Tehuacán', 12 => 'Puebla 9', 13 => 'Puebla 11', 14 => 'Puebla 12'], null, ['id' => 'municipality', 'class' => 'form-control', 'required' => 'required']) !!}
                     <small class="text-danger">{{ $errors->first('municipality') }}</small>
                 </div>
 

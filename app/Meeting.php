@@ -14,13 +14,16 @@ class Meeting extends Model
         'Teziutlán', 
         'Ajalpan', 
         'San Martín Tezmelucán', 
-        'Puebla', 
+        'Puebla 6', 
         'Tepeaca', 
         'Chalchicomula de Sesma', 
         'Cholula', 
         'Atlixco', 
         'Acatlán', 
-        'Tehuacán'
+        'Tehuacán',
+        'Puebla 9',
+        'Puebla 11',
+        'Puebla 12'
     ];
 
     public function getStatusAttribute($value)
@@ -61,7 +64,7 @@ class Meeting extends Model
         return $month ? $this->where('municipality', 4)->whereMonth('date', $month) : $this->where('municipality', 4);
     }
 
-    public function puebla($month = null)
+    public function puebla_seis($month = null)
     {
         return $month ? $this->where('municipality', 5)->whereMonth('date', $month) : $this->where('municipality', 5);
     }
@@ -94,6 +97,21 @@ class Meeting extends Model
     public function tehuacan($month = null)
     {
         return $month ? $this->where('municipality', 11)->whereMonth('date', $month) : $this->where('municipality', 11);
+    }
+
+    public function puebla_nueve($month = null)
+    {
+        return $month ? $this->where('municipality', 12)->whereMonth('date', $month) : $this->where('municipality', 12);
+    }
+
+    public function puebla_once($month = null)
+    {
+        return $month ? $this->where('municipality', 13)->whereMonth('date', $month) : $this->where('municipality', 13);
+    }
+
+    public function puebla_doce($month = null)
+    {
+        return $month ? $this->where('municipality', 14)->whereMonth('date', $month) : $this->where('municipality', 14);
     }
 
 }

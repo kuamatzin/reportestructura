@@ -118,8 +118,8 @@
 							<h4>Soraya Cordova Moran</h4>
 							<h4>Tel: 2225195120</h4>
 							<p>Fecha: {{$month_text}}</h3>
-							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
-							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}
+							<p>No- de Reuniones: {{$stats->puebla_seis($month)->count()}}<p>
+							No- de Personas:  {{$stats->puebla_seis($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
@@ -151,8 +151,8 @@
 							<h4>Lidia Felisa López Aguirre</h4>
 							<h4>Tel: 2222121831</h4>
 							<p>Fecha: {{$month_text}}</h3>
-							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
-							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}
+							<p>No- de Reuniones: {{$stats->puebla_nueve($month)->count()}}<p>
+							No- de Personas:  {{$stats->puebla_nueve($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
@@ -173,8 +173,8 @@
 							<h4>Ramón Fernández Solana</h4>
 							<h4>Tel: 2222999337</h4>
 							<p>Fecha: {{$month_text}}</h3>
-							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
-							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}
+							<p>No- de Reuniones: {{$stats->puebla_once($month)->count()}}<p>
+							No- de Personas:  {{$stats->puebla_once($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
@@ -184,8 +184,8 @@
 							<h4>Karina Romero Alcalá</h4>
 							<h4>Tel: 2223409117</h4>
 							<p>Fecha: {{$month_text}}</h3>
-							<p>No- de Reuniones: {{$stats->puebla($month)->count()}}<p>
-							No- de Personas:  {{$stats->puebla($month)->sum('assistans')}}
+							<p>No- de Reuniones: {{$stats->puebla_doce($month)->count()}}<p>
+							No- de Personas:  {{$stats->puebla_doce($month)->sum('assistans')}}
 							</div>
 					</section>
 					<section class="spotlight">
