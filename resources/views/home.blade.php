@@ -28,7 +28,7 @@
 			
 				<header class="major">
 					<h2>La Información esta dividida en<br />
-					15 municipios </h2>
+					15 distritos </h2>
 			
 					<select name="" id="mes" class="form-control" required="required">
 						<option value="1">Enero</option>
